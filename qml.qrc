@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainContainer.qml</file>
+        <file>NavigationMenu.qml</file>
+        <file>NavigatorItemBlock.qml</file>
+        <file>DropdownCommandMenu.qml</file>
+        <file>ModuleSelector.qml</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>calendar-range.svg</file>
+        <file>chart-areaspline.svg</file>
+        <file>clipboard-account.svg</file>
+        <file>cloud.svg</file>
+        <file>cog-outline.svg</file>
+        <file>cog.svg</file>
+        <file>file-document-edit-outline.svg</file>
+        <file>help-circle.svg</file>
+        <file>pencil.svg</file>
+        <file>apps.svg</file>
+        <file>calendar-clock.svg</file>
+        <file>cogs.svg</file>
+        <file>tooth-outline.svg</file>
+    </qresource>
+</RCC>
