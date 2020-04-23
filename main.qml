@@ -6,9 +6,9 @@ import QtQuick.Controls.Material 2.12
 ApplicationWindow {
     visible: true
     id: root
-    width: 800
-    minimumWidth: 560
-    minimumHeight: 504
+    width: 880
+    minimumWidth: 400
+    minimumHeight: 400
     height: 640
     title: qsTr("eFicha")
     Material.theme: Material.Light
@@ -28,10 +28,22 @@ ApplicationWindow {
 
     RowLayout {
         id: mainRowLayout
+        visible: root.width < 800 ? false : true
         anchors.fill: parent
         spacing: 0
 
-        NavigationMenu {}
+        DesktopNavigationMenu {}
+
+        MainContainer {}
+    }
+
+    ColumnLayout {
+        id: mainColumnLayout
+        visible: root.width >= 800 ? false : true
+        anchors.fill: parent
+        spacing: 0
+
+        MobileNavigationLayout {}
 
         MainContainer {}
     }

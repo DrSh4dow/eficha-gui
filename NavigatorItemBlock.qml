@@ -10,7 +10,7 @@ Rectangle {
     property string iconName: "cloud.svg"
     property string iconText: "Item"
     property int tabNumberReference: 0
-    property string iconColor: "#CBD5E0"
+    property string iconColor: "#E2E8F0"
     property string iconColorActive: "#E2E8F0"
 
     Rectangle {

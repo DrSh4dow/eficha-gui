@@ -2,10 +2,11 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>MainContainer.qml</file>
-        <file>NavigationMenu.qml</file>
+        <file>DesktopNavigationMenu.qml</file>
         <file>NavigatorItemBlock.qml</file>
         <file>DropdownCommandMenu.qml</file>
         <file>ModuleSelector.qml</file>
+        <file>MobileNavigationLayout.qml</file>
     </qresource>
     <qresource prefix="/icons">
         <file>calendar-range.svg</file>
@@ -21,5 +22,6 @@
         <file>calendar-clock.svg</file>
         <file>cogs.svg</file>
         <file>tooth-outline.svg</file>
+        <file>menu.svg</file>
     </qresource>
 </RCC>
